@@ -1,4 +1,5 @@
 import React, { Component } from  'react';
+import { withRouter } from 'react-router-dom'; // to access route props history
 import config from '../config'
 import './AddBookmark.css';
 
@@ -49,6 +50,7 @@ class AddBookmark extends Component {
         url.value = ''
         description.value = ''
         rating.value = ''
+        this.props.history.push('/')    // available via withRouter (v2), else by passing route props in App render of component (see v1)
         this.props.onAddBookmark(data)
       })
       .catch(error => {
@@ -57,6 +59,7 @@ class AddBookmark extends Component {
   }
 
   render() {
+    console.log(this.props)
     const { error } = this.state
     const { onClickCancel } = this.props
     return (
@@ -137,4 +140,5 @@ class AddBookmark extends Component {
   }
 }
 
-export default AddBookmark;
+export default withRouter(AddBookmark);
+// export default AddBookmark;

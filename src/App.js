@@ -62,11 +62,23 @@ class App extends Component {
         <div className='content' aria-live='polite'>
           <Route 
             path='/add-bookmark'
-            render={() => 
-              <AddBookmark 
+            // v1: pass route props directly
+            // render={(props) => {
+            //   return <AddBookmark 
+            //     {...props}
+            //     onAddBookmark={this.addBookmark}
+            //     onClickCancel={() => { props.history.push('/') }}
+            //   />
+            // }}
+            // v2: don't bother passing route props... 
+            // import/use { withRouter } in AddBookmark.js instead
+            // which is a bit like Context, removing the need for prop-drilling
+            render={({history}) => {
+              return <AddBookmark 
                 onAddBookmark={this.addBookmark}
-                onClickCancel={() => { /*what here? */ }}
-              />}
+                onClickCancel={() => { history.push('/') }}
+              />
+            }}
           />
           <Route 
             exact
