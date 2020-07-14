@@ -3,7 +3,7 @@
 ## branch: [me-v2](https://github.com/artificialarea/bookmarks-app/tree/me-v2)
 Exercise Per: https://courses.thinkful.com/react-v1/checkpoint/16#refactor-the-bookmarks-app-to-use-context
 
-branched off of: **context-startingpoint**
+branched off: **context-startingpoint**
 
 
 <br />
@@ -11,7 +11,7 @@ branched off of: **context-startingpoint**
 ## branch: [me-v1](https://github.com/artificialarea/bookmarks-app/tree/me-v1)
 Exercise Per: https://courses.thinkful.com/react-v1/checkpoint/14#programmatic-navigation-with-history
 
-branched off of: **master**
+branched off: **master**
 
 **me-1** evolution via branches: 
 1. **install-router** 
