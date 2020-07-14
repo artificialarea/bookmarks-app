@@ -1,6 +1,6 @@
 import React, { Component } from  'react';
-import config from '../config'
 import BookmarksContext from '../BookmarksContext';
+import config from '../config'
 import './AddBookmark.css';
 
 const Required = () => (
@@ -48,16 +48,17 @@ class AddBookmark extends Component {
         url.value = ''
         description.value = ''
         rating.value = ''
-        this.context.AddBookmark(data)
+        this.context.addBookmark(data)
         this.props.history.push('/')
       })
       .catch(error => {
+        console.log(error)
         this.setState({ error })
       })
   }
 
   handleClickCancel = () => {
-      this.props.history.push('/')
+    this.props.history.push('/')
   };
 
   render() {
