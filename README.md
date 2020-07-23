@@ -6,6 +6,8 @@ Associated with Bookmarks Server: https://github.com/artificialarea/bookmarks-se
 
 branched off: **prop-types**
 
+**[Thinkful solutions...](https://courses.thinkful.com/node-postgres-v1/checkpoint/17#solution)**
+
 
 <br />
 
