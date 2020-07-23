@@ -1,18 +1,33 @@
-# Bookmarks React Client
-_This project is a demonstration for Thinkful's React course_
+# Bookmarks React Client (Revisited)
+
+## branch: [me-PATCH](https://github.com/artificialarea/bookmarks-app/tree/me-PATCH)
+Exercise Per: https://courses.thinkful.com/node-postgres-v1/checkpoint/17#assignment
+Associated with Bookmarks Server: https://github.com/artificialarea/bookmarks-server
+
+branched off: **prop-types**
+
+
+<br />
+
+
+
+## branch: [me-v2](https://github.com/artificialarea/bookmarks-app/tree/me-v2)
+Exercise Per: https://courses.thinkful.com/react-v1/checkpoint/16#refactor-the-bookmarks-app-to-use-context
+
+branched off: **context-startingpoint**
+
+
+<br />
+
+## branch: [me-v1](https://github.com/artificialarea/bookmarks-app/tree/me-v1)
+Exercise Per: https://courses.thinkful.com/react-v1/checkpoint/14#programmatic-navigation-with-history
+
+branched off: **master**
+
+**me-1** evolution via branches: 
+1. **install-router** 
+2. **programmic-navigation** (end state of me-1, too)
+
+<br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Setup
-
-Ensure your `bookmarks-server` application is running on the appropriate port and has the necessary tables to operate.
-
-Ensure you have a `env.local` file in the root of this project's directory that has the following setting:
-
-```bash
-REACT_APP_API_KEY='abc123'
-```
-
-> Note: `abc123` should match the value of the server's `API_TOKEN` env var.
-
-Modify the `./src/config.js` file so that the `API_ENDPOINT` setting points at your local bookmarks server's address (probably `http://localhost:8000/bookmarks`).
