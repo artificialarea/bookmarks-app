@@ -1,5 +1,11 @@
 # Bookmarks React Client (Revisited)
 
+## branch: master
+**Deploying to Production** exercise per: https://courses.thinkful.com/node-postgres-v1/checkpoint/18
+
+
+<br />
+
 ## branch: [me-PATCH](https://github.com/artificialarea/bookmarks-app/tree/me-PATCH)
 Exercise Per: https://courses.thinkful.com/node-postgres-v1/checkpoint/17#assignment
 Associated with Bookmarks Server: https://github.com/artificialarea/bookmarks-server
