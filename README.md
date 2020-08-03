@@ -1,7 +1,9 @@
 # Bookmarks React Client (Revisited)
 
 ## branch: master
-**Deploying to Production** exercise per: https://courses.thinkful.com/node-postgres-v1/checkpoint/18
+
+1. **Deploying to Production** exercise per: https://courses.thinkful.com/react-v1/checkpoint/18
+2. **Deploying a Database** exercise per: https://courses.thinkful.com/node-postgres-v1/checkpoint/20#full-stack-bookmarks
 
 
 <br />
