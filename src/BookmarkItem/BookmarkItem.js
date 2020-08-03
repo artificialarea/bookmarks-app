@@ -73,6 +73,10 @@ export default function BookmarkItem(props) {
 
 BookmarkItem.defaultProps = {
     onClickDelete: () => { },
+    id: '',
+    title: '',
+    url: '',
+    rating: 1,
 }
 
 // Testing issue (on initial render?)
