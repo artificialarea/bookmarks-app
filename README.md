@@ -2,9 +2,11 @@
 
 ## branch: [me-PATCH](https://github.com/artificialarea/bookmarks-app/tree/me-PATCH)
 Exercise Per: https://courses.thinkful.com/node-postgres-v1/checkpoint/17#assignment
-_associated with Bookmarks Server: https://github.com/artificialarea/bookmarks-server_
+Associated with Bookmarks Server: https://github.com/artificialarea/bookmarks-server
 
 branched off: **prop-types**
+
+**[Thinkful solutions...](https://courses.thinkful.com/node-postgres-v1/checkpoint/17#solution)**
 
 
 <br />
